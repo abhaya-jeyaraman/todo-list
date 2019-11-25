@@ -1,0 +1,54 @@
+.styledInput {
+  font-size: 18px;
+  font-family: 'Avenir';
+  border: none;
+  padding: 10px;
+  width: 400px;
+  border-bottom: 1px solid black;
+}
+
+.styledInput:focus {
+  outline: none
+}
+
+.nameInput {
+  font-size: 35;
+  font-family: 'Avenir';
+  border: none;
+  padding: 10px;
+  width: 400px;
+  border-bottom: 1px solid black;
+}
+
+.nameInput:focus {
+  outline: none
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bucketName {
+  padding-bottom: 50px;
+}
+
+.emptyText {
+  font-family: 'Avenir';
+  color: grey;
+  font-size: 14;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.backLink {
+  font-family: 'Avenir';
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.backLink:hover {
+  cursor:pointer;
+}

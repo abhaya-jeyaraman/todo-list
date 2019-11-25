@@ -1,0 +1,56 @@
+h2 {
+  font-family: 'Avenir'
+}
+
+.bucketManager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addBucket {
+  font-size: 20px;
+  font-family: 'Avenir';
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.addBucket:hover {
+  box-shadow: 1px 2px;
+  cursor: pointer;
+}
+.addBucket:focus {
+  outline: none
+}
+
+
+.bucketText {
+  font-family: 'Avenir';
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.bucketBox {
+  background-color: black;
+  padding: 25px;
+  margin: 25px;
+  height: 100px;
+  width: 200px;
+  opacity: 0.75;
+  word-wrap: break-word;
+}
+
+.bucketBox:hover {
+  opacity: 0.9;
+  box-shadow: 1px 2px;
+  cursor: pointer;
+}
+.boxList {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

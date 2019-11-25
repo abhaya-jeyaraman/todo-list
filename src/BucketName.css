@@ -1,0 +1,33 @@
+.nameInput {
+  font-size: 28px;
+  font-family: 'Avenir';
+  border: none;
+  padding: 10px;
+  width: 400px;
+  border-bottom: 1px solid black;
+}
+
+.nameInput:focus {
+  outline: none
+}
+
+.editedName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.editButton {
+  font-size: 10px;
+  font-family: 'Avenir';
+  padding-left: 30px;
+}
+
+.bucketName {
+  font-size: 35;
+  font-family: 'Avenir'
+}
+
+h1 {
+  font-family: 'Avenir';
+}

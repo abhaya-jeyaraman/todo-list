@@ -1,0 +1,18 @@
+.root {
+  height: 100%;
+}
+
+.left {
+  width: 20%;
+  background-color: black;
+  height: 100%;
+  position: fixed;
+  left: 0
+}
+
+.right {
+  width: 80%;
+  height: 100%;
+  position: fixed;
+  right: 0
+}
